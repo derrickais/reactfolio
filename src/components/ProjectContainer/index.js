@@ -2,6 +2,7 @@ import React from 'react';
 import runBuddy from '../../assets/images/run-buddy.png';
 import nee from '../../assets/images/north-eastern-events.png';
 import nee2 from '../../assets/images/north-eastern-events-express.png';
+import Project from '../Project';
 
 function ProjectContainer() {
     const projects = [{
@@ -21,7 +22,7 @@ function ProjectContainer() {
     return (
         <div>
             <h2>Portfolio</h2>
-
+            {projects.map(project => <Project project={project} />)}
         </div>
     )
 }
