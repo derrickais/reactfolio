@@ -8,8 +8,10 @@ function Project({ project }) {
             onClick={() => window.open(project.url, '_blank', 'noopener,noreferrer')}
         >
             <img className='banner' src={project.image} />
-            <h3>{project.name}</h3>
-            <img src={githubIcon} />
+            <div className='projectInfo'>
+                <h3>{project.name}</h3>
+                <img className='github' src={githubIcon} />
+            </div>
         </div>
     )
 }

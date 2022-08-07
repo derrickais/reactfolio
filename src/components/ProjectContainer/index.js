@@ -22,7 +22,9 @@ function ProjectContainer() {
     return (
         <div>
             <h2>Portfolio</h2>
-            {projects.map(project => <Project project={project} />)}
+            <div className='projects'>
+                {projects.map(project => <Project project={project} />)}
+            </div>
         </div>
     )
 }
