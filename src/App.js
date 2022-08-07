@@ -19,7 +19,7 @@ function App() {
   const activeView = mainViews[route]
   return (
     <div className="App">
-      <Header />
+      <Header setRoute={setRoute} />
         {activeView()}
       <Footer />
     </div>

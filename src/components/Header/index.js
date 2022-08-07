@@ -1,8 +1,12 @@
 import React from 'react';
+import Navigation from '../Navigation';
 
-function Header() {
+function Header({ setRoute }) {
     return (
-        <div></div>
+        <header>
+            <img src="#" />
+            <Navigation setRoute={setRoute} />
+        </header>
     )
 }
 
