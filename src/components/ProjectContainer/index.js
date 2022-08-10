@@ -1,8 +1,7 @@
 import React from 'react';
-import runBuddy from '../../assets/images/run-buddy.png';
+import listenUp from '../../assets/images/listen-up.png';
 import nee from '../../assets/images/north-eastern-events.png';
 import nee2 from '../../assets/images/north-eastern-events-express.png';
-import placeholderBanner from '../../assets/images/header-image.jpeg';
 import weatherly from '../../assets/images/weatherly.png'
 import notetaker from '../../assets/images/notetaker.png';
 import workdayScheduler from '../../assets/images/workdayScheduler.png';
@@ -10,9 +9,9 @@ import Project from '../Project';
 
 function ProjectContainer() {
     const projects = [{
-        name: 'Run-Buddy',
-        url: 'https://derrickais.github.io/run-buddy/',
-        image: runBuddy
+        name: 'ListenUp',
+        url: 'https://github.com/derrickais/listen-up',
+        image: ListenUp
     }, {
         name: 'North Eastern Events',
         url: 'https://derrickais.github.io/nae-events/',
